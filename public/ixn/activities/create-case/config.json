@@ -32,7 +32,7 @@
         }
     },
     "configurationArguments": {
-    	"applicationExtensionKey": "33b1d525-f2c4-4252-9dc3-28bd48c2f5aa",
+    	"applicationExtensionKey": "4212921d-ea25-4ef2-b9d6-34ccd49c70bf",
         "defaults": { "priority": "4"},             
         "save": {
         	"url": "https://custom-activity-int-map.herokuapp.com/ixn/activities/update-case/save/",
