@@ -22,7 +22,7 @@
             "outArguments": [
             	{ "caseID":"number" }
 			],			
-			"url": "https://custom-activity-int-map.herokuapp.com/journeybuilder/execute/",
+			"url": "https://custom-activity-int-map.herokuapp.com/ixn/activities/update-case/execute/",
             "verb": "POST",
             "body": "",
             "header": "",
@@ -35,26 +35,26 @@
     	"applicationExtensionKey": "33b1d525-f2c4-4252-9dc3-28bd48c2f5aa",
         "defaults": { "priority": "4"},             
         "save": {
-        	"url": "hhttps://custom-activity-int-map.herokuapp.com/journeybuilder/save/",
+        	"url": "https://custom-activity-int-map.herokuapp.com/ixn/activities/update-case/save/",
             "body": "",
             "verb": "POST",
             "useJwt": false
         },
         "publish": {
-        	"url": "https://custom-activity-int-map.herokuapp.com/journeybuilder/publish/",
+        	"url": "https://custom-activity-int-map.herokuapp.com/ixn/activities/update-case/publish/",
             "verb": "POST",
             "body": "",
             "useJwt": false
         },
         "validate": {
-        	"url": "https://custom-activity-int-map.herokuapp.com/journeybuilder/validate/",
+        	"url": "https://custom-activity-int-map.herokuapp.com/ixn/activities/update-case/validate/",
             "verb": "POST",
             "body": "",
             "useJwt": false            
         }
     },
     "edit": {
-    	"url": "https://custom-activity-int-map.herokuapp.com/journeybuilder/",
+    	"url": "https://custom-activity-int-map.herokuapp.com/ixn/activities/update-case/",
         "height": 400,
         "width": 500
     }
