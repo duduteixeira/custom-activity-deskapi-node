@@ -15,14 +15,14 @@
     "arguments": {
         "execute": {       
 			"inArguments":[
-				{ "firstName":"{{Contact.Attribute.__your-de-name__.FirstName}}"},
-				{ "lastName":"{{Contact.Attribute.__your-de-name__.LastName}}"},
+				{ "firstName":"{{Contact.Attribute.DE_PUSH_TESTE.FirstName}}"},
+				{ "lastName":"{{Contact.Attribute.DE_PUSH_TESTE.LastName}}"},
 				{ "emailAddress": "{{Contact.Default.Email}}"}							
 			],
             "outArguments": [
             	{ "caseID":"number" }
 			],			
-			"url": "https://__insert_your_custom_activity_endpoint__/ixn/activities/create-case/execute/",
+			"url": "https://custom-activity-int-map.herokuapp.com/journeybuilder/execute/",
             "verb": "POST",
             "body": "",
             "header": "",
@@ -32,29 +32,29 @@
         }
     },
     "configurationArguments": {
-    	"applicationExtensionKey": "__activity-key__",
+    	"applicationExtensionKey": "33b1d525-f2c4-4252-9dc3-28bd48c2f5aa",
         "defaults": { "priority": "4"},             
         "save": {
-        	"url": "https://__insert_your_custom_activity_endpoint__/ixn/activities/create-case/save/",
+        	"url": "hhttps://custom-activity-int-map.herokuapp.com/journeybuilder/save/",
             "body": "",
             "verb": "POST",
             "useJwt": false
         },
         "publish": {
-        	"url": "https://__insert_your_custom_activity_endpoint__/ixn/activities/create-case/publish/",
+        	"url": "https://custom-activity-int-map.herokuapp.com/journeybuilder/publish/",
             "verb": "POST",
             "body": "",
             "useJwt": false
         },
         "validate": {
-        	"url": "https://__insert_your_custom_activity_endpoint__/ixn/activities/create-case/validate/",
+        	"url": "https://custom-activity-int-map.herokuapp.com/journeybuilder/validate/",
             "verb": "POST",
             "body": "",
             "useJwt": false            
         }
     },
     "edit": {
-    	"url": "https://__insert_your_custom_activity_endpoint__/ixn/activities/create-case/",
+    	"url": "https://custom-activity-int-map.herokuapp.com/journeybuilder/",
         "height": 400,
         "width": 500
     }
