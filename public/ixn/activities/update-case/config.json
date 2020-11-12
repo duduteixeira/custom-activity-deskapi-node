@@ -19,7 +19,7 @@
 			],        	
             "outArguments": [				
 			],
-			"url": "https://custom-activity-int-map.herokuapp.com/ixn/activities/update-case/execute/",
+			"url": "https://teste-map-integracao.herokuapp.com/ixn/activities/update-case/execute/",
             "verb": "POST",
             "body": "",
             "header": "",
@@ -29,29 +29,29 @@
         }
     },
     "configurationArguments": {
-    	"applicationExtensionKey": "1cdcfa65-4d5b-4d01-bf2f-3618056f0c35",
+    	"applicationExtensionKey": "2fd23153-6398-4676-bdf6-d25111d10e90",
         "defaults": { },     
         "save": {
-        	"url": "https://custom-activity-int-map.herokuapp.com/ixn/activities/update-case/save/",
+        	"url": "https://teste-map-integracao.herokuapp.com/ixn/activities/update-case/save/",
             "body": "",
             "verb": "POST",
             "useJwt": false
         },
         "publish": {
-        	"url": "https://custom-activity-int-map.herokuapp.com/ixn/activities/update-case/publish/",
+        	"url": "https://teste-map-integracao.herokuapp.com/ixn/activities/update-case/publish/",
             "verb": "POST",
             "body": "",
             "useJwt": false
         },
         "validate": {
-        	"url": "https://custom-activity-int-map.herokuapp.com/ixn/activities/update-case/validate/",
+        	"url": "https://teste-map-integracao.herokuapp.com/ixn/activities/update-case/validate/",
             "verb": "POST",
             "body": "",
             "useJwt": false            
         }
     },
     "edit": {
-    	"url": "https://custom-activity-int-map.herokuapp.com/ixn/activities/update-case/",
+    	"url": "https://teste-map-integracao.herokuapp.com/ixn/activities/update-case/",
         "height": 400,
         "width": 500
     }
