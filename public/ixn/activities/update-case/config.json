@@ -15,7 +15,7 @@
     "arguments": {
         "execute": {     	
 			"inArguments":[	
-				{ "caseID":"{{Interaction.4212921d-ea25-4ef2-b9d6-34ccd49c70bf.caseID}}" }
+				{ "caseID":"{{Interaction.1cdcfa65-4d5b-4d01-bf2f-3618056f0c35.caseID}}" }
 			],        	
             "outArguments": [				
 			],
@@ -29,7 +29,7 @@
         }
     },
     "configurationArguments": {
-    	"applicationExtensionKey": "4212921d-ea25-4ef2-b9d6-34ccd49c70bf",
+    	"applicationExtensionKey": "1cdcfa65-4d5b-4d01-bf2f-3618056f0c35",
         "defaults": { },     
         "save": {
         	"url": "https://custom-activity-int-map.herokuapp.com/ixn/activities/update-case/save/",
